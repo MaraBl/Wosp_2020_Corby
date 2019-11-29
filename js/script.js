@@ -67,3 +67,6 @@ function loadGallery() {
     moreText.style.display = "inline";
   }
 }
+
+
+

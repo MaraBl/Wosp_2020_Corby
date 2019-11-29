@@ -71,6 +71,7 @@ p {
    height: 35px;
    border-radius: none;
    color: #fff;
+   box-shadow: 2px 2px 3px #000000;
 }
 .red_button:hover {
    color: #F3221d;
@@ -111,6 +112,7 @@ p {
   color: #fff;
   background-color: #F3221d;
   border-radius: 10%;
+  box-shadow: 2px 2px 3px #000000;
 }
 
 .navbar img {
@@ -134,11 +136,11 @@ p {
 }
 
 .nav-item a {
-  font-size: 18px;
+  font-size: 20px;
   color: #F3221d;
+  font-weight: bold;
 
 }
-
 
 .navbar.navbar-9 .navbar-toggler-icon {
 background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
