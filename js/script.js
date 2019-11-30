@@ -59,11 +59,11 @@ function loadGallery() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "See all"; 
+    btnText.innerHTML = "Zobacz więcej"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "See less"; 
+    btnText.innerHTML = "Zobacz mniej"; 
     moreText.style.display = "inline";
   }
 }
