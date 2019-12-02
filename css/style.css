@@ -21,7 +21,13 @@ body {
 .container {
   max-width: 1200px;
   height: auto;
+  text-align: left;
  }
+
+.row {
+  margin: 0;
+  padding: 0;
+}
 
  h1, h3, h4 {
   margin: 25px 25px 25px 5px;
@@ -53,10 +59,18 @@ p {
   background-color: #F3221d;
 }
 
+.btn_top {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  float: right;
+}
+
 .red_button {
   background-color: #F3221d;
   border: none;
-  margin-right: 200px;
+  margin-right: 10%;
   margin-bottom: 1%;
   padding: 0px 5px 5px 5px;
   width: 300px;
@@ -70,13 +84,7 @@ p {
    border-color: #F3221d;
 
 }
-.btn_top {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-  float: right;
-}
+
 
 
 .logo img {
@@ -86,6 +94,7 @@ p {
 
 .date {
   padding: 20px 80px;
+  text-align: left;
 }
 
 /*NAVBAR AND NAVIGATION*/
@@ -157,7 +166,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 .carousel-cell2 {
   width: 100%;
   height: 400px;
-  background-image: url('../img/team2.jpg');
+  background-image: url('../img/slide2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 10px;
@@ -168,7 +177,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 .carousel-cell3 {
   width: 100%;
   height: 400px;
-  background-image: url('../img/team.jpg');
+  background-image: url('../img/slide3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 10px;
@@ -179,7 +188,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 .carousel-cell4 {
   width: 100%;
   height: 400px;
-  background-image: url('../img/show.jpg');
+  background-image: url('../img/slide5.jpg');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 10px;
@@ -187,16 +196,6 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   counter-increment: gallery-cell;
 }
 
-.carousel-cell5 {
-  width: 100%;
-  height: 400px;
-  background-image: url('../img/wosp2.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
 
 /* cell number */
 .carousel-cell:before {
@@ -262,7 +261,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 } 
 
 .timetable {
-  padding: 20px 30px 20px 10px;
+  padding: 0;
 }
 
 
@@ -310,7 +309,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   font-weight: bold;
 }
 
-/*Sponsorzy*/ 
+/*Sponsorzy*/
 
 .sponsors {
   text-align: center;
@@ -386,13 +385,12 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 /* FOOTER */ 
 
 footer {
-    background-color: #333333;
-    color: #fff;
-    margin: 0;
-    position:absolute;
-	margin-bottom:0;
-	padding: 1%;
-	width: 100%;
+  background-color: #333333;
+  color: black;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
 }
 
 
@@ -406,12 +404,14 @@ footer a:hover {
   color: #F3221d;
 }
 
+.link {
+  margin: 3%;
+}
+
 .link a {
   width: 100%;
 }
-.link p {
-  margin-left: 105px;
-}
+
 .fa-stack-2x {
   color: #F3221d;
 }
@@ -424,38 +424,27 @@ footer span {
   margin: 1%;
 }
 
-footer .copy {
-    color: black;
+.copy {
+    background-color: #fff;
    text-align: center;
-   position:absolute;
-   margin-bottom:0;
-   padding: 0;
+   margin:0;
+   padding: 1%;
    width: 100%;
 }
 
-footer .copy .col-12 > p {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 12px;
-}
 
 
 
 /* MEDIA QUERIES*/
 
 @media (max-width: 767.98px) { 
-  .container {margin: 0; padding: 3%;}
-  .container .row {margin: 0, padding: 3%;}
-  .container h2 {margin: 8% 0 12% 0;}
+  .container .row {margin: 0, padding: 2%;}
   .red_button{ margin-right: 40px; }
   .nav-link:hover {border-radius: 0;}
   .slogan {text-align: left;}
   .gallery img {width: 48%;}
   .team {padding: 10px;}
-  footer .row {text-align: left; padding: 2% 0;}
-  footer .row .link {margin: 5%; padding: 1%;}
-  footer .row .col-sm-12 {margin-bottom: 5%;}
-  footer a {font-size: 14px;}
+
   .navbar a {font-size: 14px;}
 }
 
@@ -463,7 +452,6 @@ footer .copy .col-12 > p {
   .red_button{ margin-right: 50px; }
   .nav-item {min-width: 100px};
   .nav-link:hover {border-radius: 0;}
-  footer .row {text-align: left; margin-left: 7%;}
  }
 
 
