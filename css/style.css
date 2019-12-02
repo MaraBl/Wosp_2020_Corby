@@ -441,6 +441,7 @@ footer span {
   h1, h2, h3, h4 {text-align: center;}
   .red_button {margin: 0 1% 1% 1%;}
   .nav-link:hover {border-radius: 0;}
+  .date {padding: 5px;}
   .navbar a {font-size: 15px;}
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
