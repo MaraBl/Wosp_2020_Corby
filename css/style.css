@@ -444,7 +444,7 @@ footer span {
 .map {
   margin: 50px 0;
 }
-.map .col-4 {
+.map .col-lg-6 {
   padding: 20px;
 }
 .map iframe {
