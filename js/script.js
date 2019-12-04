@@ -3,16 +3,7 @@
 AOS.init();
 
 
-/*
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
 
-
-$('.popover-dismiss').popover({
-  trigger: 'focus'
-})
-*/
 $("[data-toggle=popover]").popover({
         html : true,
         trigger: 'focus',
