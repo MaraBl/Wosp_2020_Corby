@@ -152,66 +152,21 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 
 }
 
-.carousel-cell1 {
+.carousel-cell {
   width: 100%;
   height: 400px;
-  background-image: url('../img/28final2020_temat.png');
-  background-repeat: no-repeat;
-  background-position: center;
   margin-right: 10px;
   border-radius: 5px;
-  counter-increment: gallery-cell;
-}
-
-
-.carousel-cell2 {
-  width: 100%;
-  height: 400px;
-  background-image: url('../img/slide2.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
 }
 
-.carousel-cell3 {
-  width: 100%;
-  height: 400px;
-  background-image: url('../img/slide3.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
-
-.carousel-cell4 {
-  width: 100%;
-  height: 400px;
-  background-image: url('../img/slide5.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-}
+.one {background-image: url('../img/28final2020_temat.png');}
+.two {background-image: url('../img/slide2.jpg');}
+.three {background-image: url('../img/slide3.jpg');}
+.four {background-image: url('../img/slide5.jpg');}
 
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-
-.carousel img {
-  display: block;
-  height: 200px;
-}
 
 
 .flickity-page-dots {
@@ -435,7 +390,54 @@ footer span {
 }
 
 
+/*POPOVER*/
 
+.popover-block-container .popover-icon {
+  background: none;
+  color: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+.popover-block-container .popover-icon i {
+  color: #04a0b2;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.popover-header {
+  display: none;
+}
+
+.popover {
+  max-width: 306.6px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 4px 4px 6px 3px #595959;
+}
+
+.popover-body {
+  border: none;
+  padding: 20px 49.4px 24px 24px;
+  color: #595959;
+  font-size: 15px;
+  z-index: 2;
+  line-height: 1.53;
+  letter-spacing: 0.1px;
+}
+
+.popover-body .popover-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  opacity: 1;
+}
+.popover-body .popover-close .material-icons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #04a0b2;
+}
 
 /* MEDIA QUERIES*/
 
@@ -449,6 +451,11 @@ footer span {
   .nav-link:hover {border-radius: 0;}
   .date {padding: 5px;}
   .navbar a {font-size: 15px;}
+  .carousel-cell {height: 300px;}
+  .one {background-image: url('../img/28final2020_temat_small.png');}
+  .two {background-image: url('../img/slide2_small.jpg');}
+  .three {background-image: url('../img/slide3_small.jpg');}
+  .four {background-image: url('../img/slide5_small.jpg');}
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
@@ -462,6 +469,9 @@ footer span {
   .red_button{ margin-right: 50px; }
   .nav-item {min-width: 100px};
   .nav-link:hover {border-radius: 0;}
+  .slogan h2{text-align: left;}
+  .slogan p {text-align: left;}
+  .joinUs {text-align: center;}
  }
 
 

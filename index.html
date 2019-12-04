@@ -23,7 +23,23 @@
     <div class="row">
 	    <div class="col-12 top"></div>
 	    <div class="col-12">
-	        <button type="button" class="btn_top red_button">Zostań &nbsp &nbsp sponsorem</button>
+
+	        <div class="popover-block-container">
+			  <button tabindex="0" type="button" class="btn_top red_button" data-popover-content="#sponsor" data-toggle="popover" data-placement="bottom">
+			    <a class="material-icons">Zostań &nbsp &nbsp sponsorem</a>
+			  </button>
+			  <div id="sponsor" style="display:none;">
+			    <div class="popover-body">
+			      <button type="button" class="popover-close close">
+			        <i class="material-icons">X</i>
+			      </button>
+			      <h4>Skontaktuj się z nami</h4>
+			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis libero ipsum, imperdiet</p>
+			    </div>
+			  </div>
+			</div>
+
+
 	    </div>
 	    <div class="logo col-sm-5 col-md-5 col-lg-4">
 	        <img src="img/logo.png" alt="WOSP">
@@ -46,7 +62,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
                 	<ul class="nav justify-content-center navbar-nav mt-2 mt-lg-0">
                 		<li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
-                			<a class="nav-link active" href="#eventTimetable">Grafik</a>
+                			<a class="nav-link active" href="#eventTimetable">Plan imprezy</a>
                 		</li>
                 		<li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 			<a class="nav-link active" href="auctions.html">Aukcje</a>
@@ -58,8 +74,11 @@
                 			<a class="nav-link" href="#sponsors">Sponsorzy</a>
                 		</li>
                 		<li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
-                			<a href="gallery.html" class="nav-link">Galeria</a>
+                			<a class="nav-link" href="map.html">Punkty zbiórek</a>
                 		</li>
+                		<!--li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+                			<a href="gallery.html" class="nav-link">Galeria</a>
+                		</li-->
                 		<li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 			<a class="nav-link" href="#contact">Kontakt</a>
                 		</li>
@@ -74,10 +93,10 @@
 
     <section>
         <div class="main-carousel">
-          <div class="carousel-cell1"></div>
-          <div class="carousel-cell2"></div>
-          <div class="carousel-cell3"></div>
-          <div class="carousel-cell4"></div>
+          <div class="carousel-cell one"></div>
+          <div class="carousel-cell two"></div>
+          <div class="carousel-cell three"></div>
+          <div class="carousel-cell four"></div>
         </div>
     </section>
 
@@ -101,6 +120,7 @@
         <div class="col-sm-12 col-md-12 col-lg-7 timetable">
         <a name="eventTimetable"></a>
         <h3>Plan imprezy</h3>
+        <p><strong> &nbsp Holiday Inn Corby - Kettering A43, &nbsp NN18 8ET</strong></p>
                <table class="table table-hover">
                         <tbody>
                             <tr>
@@ -189,7 +209,7 @@
                     <h3>Organizatorzy</h3>
                 </div>    
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12">
                         <div class="row">
                             <div class="col-6">
                                 <img src="img/PawelLabaj.jpg">     
@@ -200,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-sm-12">
                         <div class="row">
                             <div class="col-6">
                                 <img src="img/PawelLabaj.jpg">     
@@ -208,30 +228,6 @@
                             <div class="col-6">
                                 <h5>Maciej Nycz</h5>
                                 <p>Dział sponsorzy</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="img/PawelLabaj.jpg">     
-                            </div>
-                            <div class="col-6">
-                                <h5>Marcin</h5>
-                                <p>Public Relations</p> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="img/PawelLabaj.jpg">     
-                            </div>
-                            <div class="col-6">
-                                <h5>Jan</h5>
-                                <p>Koordynacja wolontariuszy</p> 
                             </div>
                         </div>
                     </div>
@@ -339,6 +335,7 @@
     <script src="vendor/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="vendor/flickity.pkgd.min.js"></script>
+    <script src="vendor/popper.min.js"></script>
     <script src="vendor/bootstrap.min.js"></script>
     <script src="vendor/aos.js"></script>
     <script src="js/script.js"></script>
