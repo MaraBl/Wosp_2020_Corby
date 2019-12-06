@@ -17,26 +17,46 @@
 
 
 
+
 <!-- NAVIGATION -->
 
 
     <div class="row">
-      <div class="col-12 top"></div>
-      <div class="col-12">
-          <button type="button" class="btn_top red_button">Zostań &nbsp &nbsp sponsorem</button>
-      </div>
-      <div class="logo col-sm-5 col-md-5 col-lg-4">
-          <img src="img/logo.png" alt="WOSP">
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-8">
-          <div class="row">
-              <div class="date col-12">
-                  <h1>12 styczeń 2020</h1>
-                  <h3>Holiday Inn Corby - Kettering A43</h3>
-                  <h4>NN18 8ET</h4>
+        <div class="col-12 top"></div>
+        <div class="col-12">
+
+            <div class="popover-block-container">
+              <button tabindex="0" type="button" class="btn_top red_button" data-popover-content="#sponsor" data-toggle="popover" data-placement="bottom">
+                <a class="material-icons">Zostań &nbsp &nbsp sponsorem</a>
+              </button>
+              <div id="sponsor" style="display:none;">
+                <div class="popover-body">
+                  <button type="button" class="popover-close close">
+                    <i class="material-icons">X</i>
+                  </button>
+                  <h4>Skontaktuj się z nami!</h4>
+                  <p>telefon: 07731 913873</p>
+                  <p>mail: team@wospcorby.co.uk</p>
+                </div>
               </div>
-          </div>
-      </div>
+            </div>
+
+
+        </div>
+       <div class="logo col-sm-5 col-md-5 col-lg-4">
+        <a href="index.html">
+          <img src="img/logo.png" alt="WOSP">
+        </a>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-8">
+            <div class="row">
+                <div class="date col-12">
+                    <h1>12 styczeń 2020</h1>
+                    <h3>Holiday Inn Corby - Kettering A43</h3>
+                    <h4>NN18 8ET</h4>
+                </div>
+            </div>
+        </div>
       <nav class="navbar sticky-top navbar-8 navbar-expand-lg ">
             <div class="container container-fluid justify-content-center">
 
@@ -61,7 +81,7 @@
                       <a class="nav-link" href="gallery.html">Galeria</a>
                     </li-->
                     <li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
-                      <a class="nav-link" href="map.html">Punkty zbiórek</a>
+                      <a class="nav-link" href="map.html">Skarbonki Stacjonarne</a>
                     </li>
                     <li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                       <a class="nav-link" href="#contact">Kontakt</a>
@@ -74,6 +94,13 @@
 
     <section class="container">
       <div class="row all_auctions">
+        <div class="add_auction col-12">
+          <a href="#">
+            <button type="button" class="btn red_button">Dodaj aukcję
+            </button>
+          </a>
+        </div>
+
         <div class="col-sm-12 col-md 6 col-lg-4">
           <h4>Przedmiot</h4>
           <img src="https://via.placeholder.com/200.png/09f/fff">
@@ -102,19 +129,19 @@
         <div class="row">
           <div class="link col-lg-6 col-md-12">
               <div class="row">
-                <a href="tel:+44444444444">
+                <a href="tel:+447731913873">
                 <span class="fa-stack">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                </span> &nbsp 0044444444444
+                </span> &nbsp 07731 913873
                 </a>
                 </div>
                 <div class="row">
-                <a href="mailto:aaaaaaaa@gmail.com">
+                <a href="mailto:team@wospcorby.co.uk">
                 <span class="fa-stack">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-at fa-stack-1x fa-inverse"></i>
-                </span>&nbsp maaaaaa@gmail.com
+                </span>&nbsp team@wospcorby.co.uk
                 </a>
                 </div>
                 <div class="row">
@@ -141,12 +168,10 @@
             </div>
         </div>
     </div>
-    <div class="copy col-12">
-      <p>Copyrights 2019</p>
-    </div>   
+        <div class="copy col-12">
+            <p>Copyrights 2019</p>
+        </div>   
     </footer>
-
-
 
 <!-- SCRIPTS -->
     <script src="vendor/flickity.pkgd.min.js"></script>

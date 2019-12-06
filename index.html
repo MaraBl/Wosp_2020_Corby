@@ -33,8 +33,9 @@
 			      <button type="button" class="popover-close close">
 			        <i class="material-icons">X</i>
 			      </button>
-			      <h4>Skontaktuj się z nami</h4>
-			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis libero ipsum, imperdiet</p>
+			      <h4>Skontaktuj się z nami!</h4>
+                  <p>telefon: 07731 913873</p>
+			      <p>mail: team@wospcorby.co.uk</p>
 			    </div>
 			  </div>
 			</div>
@@ -74,7 +75,7 @@
                 			<a class="nav-link" href="#sponsors">Sponsorzy</a>
                 		</li>
                 		<li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
-                			<a class="nav-link" href="map.html">Punkty zbiórek</a>
+                			<a class="nav-link" href="map.html">Skarbonki Stacjonarne</a>
                 		</li>
                 		<!--li class="nav-item visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 			<a href="gallery.html" class="nav-link">Galeria</a>
@@ -214,18 +215,20 @@
 
         <div class="col-sm-12 col-md-12 col-lg-5">
             <div class="row">
-            <div class="col-12 auctions">
-             <h3>Aukcje</h3>
-             <a href="auctions.html">
-                <div class="auctions-carousel">
-                  <div class="carousel-cellA"></div>
-                  <div class="carousel-cellB"></div>
-                  <div class="carousel-cellC"></div>
-                  <div class="carousel-cellD"></div>
-                  <div class="carousel-cellE"></div>
+                <div class="col-12 auctions">
+                 <h3>Aukcje</h3>
+                    <div class="auctions-carousel">
+                      <div class="carousel-cellA"></div>
+                      <div class="carousel-cellB"></div>
+                      <div class="carousel-cellC"></div>
+                      <div class="carousel-cellD"></div>
+                      <div class="carousel-cellE"></div>
+                    </div>
+                    <a href="auctions.html">
+                        <button type="button" class="btn red_button">Zobacz aukcje
+                        </button>
+                    </a>
                 </div>
-              </a>
-            </div>
             </div>
             <div class="row team">
               <a name="team"></a>
@@ -273,7 +276,7 @@
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <p>Adimar</p>
-                <img src="img/logo/adimar.jpg" alt="logo adimar">
+                <img src="img/logo/Adimar.jpg" alt="logo adimar">
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <p>Alterego</p>
@@ -293,7 +296,21 @@
               </div>  
         </div>
         <div class="col-12">
-          <button type="button" class="btn red_button">Zostań &nbsp &nbsp sponsorem</button>
+            <div class="popover-block-container">
+              <button tabindex="0" type="button" class="btn red_button" data-popover-content="#sponsor" data-toggle="popover" data-placement="bottom">
+                <a class="material-icons">Zostań &nbsp &nbsp sponsorem</a>
+              </button>
+              <div id="sponsor" style="display:none;">
+                <div class="popover-body">
+                  <button type="button" class="popover-close close">
+                    <i class="material-icons">X</i>
+                  </button>
+                  <h4>Skontaktuj się z nami!</h4>
+                  <p>telefon: 07731 913873</p>
+                  <p>mail: team@wospcorby.co.uk</p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
