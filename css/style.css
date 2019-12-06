@@ -454,9 +454,14 @@ footer span {
   padding: 20px;
 }
 
+.map p,
+.map h4 {
+  text-align: center;
+}
 .map iframe {
-  height: 400px;
-  width: 400px;
+  width: 100%;
+  height: 280px;
+  padding: 20px;
 }
 
 
@@ -484,7 +489,6 @@ footer span {
   .team {padding: 3px;}
   .team .col-sm-12{padding: 0;}
   .link a {font-size: 14px;}
-  .map iframe {height: 160px, width:160px;}
 }
 
 @media (max-width: 991.98px) {
