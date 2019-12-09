@@ -61,10 +61,10 @@ p {
 .red_button {
   background-color: #F3221d;
   border: none;
-  margin-right: 10%;
+  margin-right: 70px;
   margin-bottom: 1%;
   padding: 0px 5px 5px 5px;
-  width: 250px;
+  width: 200px;
   height: 35px;
   color: #fff;
   box-shadow: 2px 2px 3px #000000;
@@ -220,7 +220,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 
 .auctions {
   padding: 10px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 .auctions .red_button {
   width: 100%;
@@ -297,7 +297,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 }
 .sponsors .btn {
   border-radius: 5%;
-  margin: 0 5%;
+  margin: 0;
 }
 
 
@@ -414,7 +414,7 @@ footer span {
 }
 
 .popover {
-  max-width: 306.6px;
+  max-width: 280px;
   border-radius: 6px;
   border: none;
   box-shadow: 4px 4px 6px 3px #595959;
@@ -427,7 +427,6 @@ footer span {
   font-size: 15px;
   z-index: 2;
   line-height: 1.53;
-  letter-spacing: 0.1px;
 }
 
 .popover-body .popover-close {
@@ -437,12 +436,14 @@ footer span {
   opacity: 1;
 }
 
-.popover-body .popover-close .material-icons {
-  font-size: 16px;
+.popover-body h4 {
   font-weight: bold;
   color: #04a0b2;
 }
-
+.popover-body i {
+    color: #04a0b2;
+    margin: 2px;
+}
 
 /*MAP*/
 
@@ -470,10 +471,10 @@ footer span {
 @media (max-width: 767.98px) { 
   .container .row {margin: 0, padding: 2%;}
   h1, h2, h3, h4 {text-align: center;}
-  .red_button {margin: 0 1% 1% 1%;}
+  .red_button {margin: 6px;}
   .navbar {position: fixed; top:0; right:0;background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
-  .btn_top {border-radius: 5%;}
+  .btn_top {float: left; border-radius: 5%;}
   .nav-link:hover {border-radius: 0;}
   .date {padding: 5px;}
   .navbar a {font-size: 15px;}
@@ -485,6 +486,7 @@ footer span {
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
+  .auctions .red_button {margin:0;}
   .gallery img {width: 48%;}
   .team {padding: 3px;}
   .team .col-sm-12{padding: 0;}
@@ -492,9 +494,12 @@ footer span {
 }
 
 @media (max-width: 991.98px) {
-  .red_button{ margin-right: 50px; }
-  .nav-item {min-width: 100px};
+  .navbar {position: fixed; top:0; right:0;background-color: #fff;}
+  .top{margin-top: 10px; background-color: #fff;}
+  .btn_top {border-radius: 5%; margin: 6px 100px 6px 6px;}
   .nav-link:hover {border-radius: 0;}
+  .date {padding: 5px;}
+  .navbar a {font-size: 15px;}
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
   .joinUs {text-align: center;}
