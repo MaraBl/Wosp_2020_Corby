@@ -53,6 +53,10 @@ p {
   background-color: #F3221d;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 .btn_top {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
