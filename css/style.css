@@ -70,7 +70,7 @@ p {
   border: none;
   margin-right: 70px;
   margin-bottom: 1%;
-  padding: 0px 5px 5px 5px;
+  padding: 5px;
   width: 200px;
   height: 35px;
   color: #fff;
@@ -263,10 +263,10 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 /*team */
 
 .team img {
-  width: 80%;
-  min-width: 90px;
-  padding: 5px;
+  width: 100%;
+  min-width: 100px;
   height: auto;
+  border-radius: 4%;
 }
 
 .team .row {
@@ -400,58 +400,7 @@ footer span {
 }
 
 
-/*POPOVER
 
-.popover-block-container .popover-icon {
-  background: none;
-  color: none;
-  border: none;
-  padding: 0;
-  outline: none;
-  cursor: pointer;
-}
-.popover-block-container .popover-icon i {
-  color: #04a0b2;
-  text-align: center;
-  margin-top: 4px;
-}
-
-.popover-header {
-  display: none;
-}
-
-.popover {
-  max-width: 280px;
-  border-radius: 6px;
-  border: none;
-  box-shadow: 4px 4px 6px 3px #595959;
-}
-
-.popover-body {
-  border: none;
-  padding: 20px 49.4px 24px 24px;
-  color: #595959;
-  font-size: 15px;
-  z-index: 2;
-  line-height: 1.53;
-}
-
-.popover-body .popover-close {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  opacity: 1;
-}
-
-.popover-body h4 {
-  font-weight: bold;
-  color: #04a0b2;
-}
-.popover-body i {
-    color: #04a0b2;
-    margin: 2px;
-}
-*/
 /*MAP*/
 
 .map {

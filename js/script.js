@@ -4,18 +4,7 @@ AOS.init();
 
 
 
-$("[data-toggle=popover1]").popover({
-        html : true,
-       	trigger: 'focus',
-        content: function() {
-            var content = $(this).attr("data-popover-content");
-            return $(content).children(".popover-body").html();
-        }
-    });
-
-$('[data-toggle="popover"]').popover();
-
-$("[data-toggle=popover3]").popover();
+$("[data-toggle=popover]").popover();
 
 
 
