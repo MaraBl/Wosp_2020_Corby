@@ -233,17 +233,25 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   width: 100%;
   height: 50px;
 }
-.carousel-cellA {
+
+.auctions-carousel {
+  background-color: black;
+}
+.carousel-cell-auctions {
   width: 100%;
   height: 300px;
-  background-image: url('../img/28final2020_temat.png');
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 10px;
   border-radius: 5px;
-  counter-increment: gallery-cell;
 }
 
+.auction-1 {background-image: url('../img/auctions/Voucher - Anita Gajdacz.jpg');}
+.auction-2 {background-image: url('../img/auctions/Kocyk - Maciej Nycz.jpg');}
+.auction-3 {background-image: url('../img/auctions/Kriolipoliza - Mirella Kettering - Anita Gajdacz.png');}
+.auction-4 {background-image: url('../img/auctions/koszulka damska - Anita Gajdacz.jpg');}
+.auction-5 {background-image: url('../img/auctions/Gosia Crystal Nails Corby logo - Anita Gajdacz.jpg');}
+ 
 .all_auctions {
   margin: 50px 40px;
 }
@@ -260,6 +268,30 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   margin-right: 0;
 }
 
+.single-auction {
+  height: 600px;
+  padding: 0;
+  margin: 20px;
+  position: relative;
+}
+
+.single-auction img {
+  border-radius: 3%;
+  margin-bottom: 25px;
+}
+
+.price {
+  width: 100%;
+  background-color: #F3221d;
+  position: absolute;
+  bottom: 0;
+  margin: 30px 0 0 0;
+  height: 50px;
+  padding: 5px;
+  color: #fff;
+  font-weight: 900;
+}
+
 /*team */
 
 .team img {
@@ -267,6 +299,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   min-width: 100px;
   height: auto;
   border-radius: 4%;
+  margin-bottom: 20px;
 }
 
 .team .row {
@@ -361,10 +394,12 @@ footer {
 }
 
 
-footer a {
+footer a,
+footer p {
     text-decoration: none;
     color: #fff;
 }
+
 
 footer a:hover {
   text-decoration: none;
@@ -375,8 +410,13 @@ footer a:hover {
   margin: 3%;
 }
 
-.link a {
+.link a,
+.link p {
   width: 100%;
+}
+
+.link p {
+  margin: 0;
 }
 
 .fa-stack-2x {
@@ -398,7 +438,9 @@ footer span {
    padding: 1%;
    width: 100%;
 }
-
+.copy p {
+ color: black;
+}
 
 
 /*MAP*/
@@ -427,7 +469,7 @@ footer span {
 @media (max-width: 767.98px) { 
   .container .row {margin: 0, padding: 2%;}
   h1, h2, h3, h4 {text-align: center;}
-  .red_button {margin: 6px;}
+  .red_button {margin: 5px; padding: 10px; width: 250px; height: 45px}
   .navbar {position: fixed; top:0; right:0;background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
   .btn_top {float: left; border-radius: 5%;}
@@ -446,7 +488,7 @@ footer span {
   .gallery img {width: 48%;}
   .team {padding: 3px;}
   .team .col-sm-12{padding: 0;}
-  .link a {font-size: 14px;}
+  .link a {font-size: 16px;}
 }
 
 @media (max-width: 991.98px) {
