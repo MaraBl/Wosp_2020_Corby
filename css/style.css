@@ -266,6 +266,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 }
 .add_auction .red_button {
   margin-right: 0;
+  width: 300px;
 }
 
 .single-auction {
@@ -273,6 +274,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   padding: 0;
   margin: 20px;
   position: relative;
+  background-color: #f4f4f4;
 }
 
 .single-auction img {
@@ -469,7 +471,7 @@ footer span {
 @media (max-width: 767.98px) { 
   .container .row {margin: 0, padding: 2%;}
   h1, h2, h3, h4 {text-align: center;}
-  .red_button {margin: 5px; padding: 10px; width: 250px; height: 45px}
+  .red_button {margin: 5px; padding: 10px; width: 230px; height: 45px}
   .navbar {position: fixed; top:0; right:0;background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
   .btn_top {float: left; border-radius: 5%;}
@@ -484,7 +486,8 @@ footer span {
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
-  .auctions .red_button {margin:0;}
+  .add_auction .red_button {margin:0; width: 230px;}
+  .price {position: relative;}
   .gallery img {width: 48%;}
   .team {padding: 3px;}
   .team .col-sm-12{padding: 0;}
