@@ -487,6 +487,8 @@ footer span {
   .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
   .add_auction .red_button {margin:0; width: 230px;}
+  .single-auction {height: auto; margin: 10px;}
+  .single-auction p {margin-top: 10px;}
   .price {position: relative;}
   .gallery img {width: 48%;}
   .team {padding: 3px;}
@@ -495,7 +497,7 @@ footer span {
 }
 
 @media (max-width: 991.98px) {
-  .navbar {position: fixed; top:0; right:0;background-color: #fff;}
+  .navbar {position: fixed; top:0; right:0; background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
   .btn_top {border-radius: 5%; margin: 6px 100px 6px 6px;}
   .nav-link:hover {border-radius: 0;}
@@ -504,6 +506,7 @@ footer span {
   .slogan h2{text-align: left;}
   .slogan p {text-align: left;}
   .joinUs {text-align: center;}
+
  }
 
 
