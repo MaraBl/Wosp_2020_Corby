@@ -27,20 +27,22 @@ body {
  h1, h3, h4 {
   margin: 25px 25px 25px 5px;
   font-weight: bold;
- }
+}
 
-h3 {
+h3,
+h2 {
   color:#F3221d;
+  font-weight: bold;
 }
 
 
 a {	
-outline: none; 
-color: #F3221d;
+  outline: none; 
+  color: #F3221d;
 }
 
 a:active { 
-outline: none; 
+  outline: none; 
 }
 
 p {
@@ -83,23 +85,38 @@ p {
 
 }
 
-
+.hero {
+  margin-bottom: 40px;
+}
+.logo {
+  text-align: center;
+}
 
 .logo img {
   width: 100%;
+  max-width: 300px;
   height: auto;
+  margin: 0;
 }
 
 .date {
-  padding: 20px 80px;
   text-align: left;
+  font-weight: 900;
+  padding-top: 50px;
 }
+
+.date p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
 
 /*NAVBAR AND NAVIGATION*/
 
 .navbar {
  width: 100%;
  color: #F3221d;
+ padding: 0 0 20px 0;
 }
 
 .nav-link {
@@ -271,8 +288,8 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 }
 
 .single-auction {
-  height: 600px;
-  padding: 0;
+  height: 550px;
+  padding: 10px 0 0 0;
   margin: 20px;
   position: relative;
   background-color: #f4f4f4;
@@ -281,11 +298,13 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 .single-auction img {
   border-radius: 3%;
   margin-bottom: 25px;
+  max-height: 200px;
 }
 
 .single-auction p {
 	padding: 5px;
 }
+
 
 .price {
   width: 100%;
@@ -481,7 +500,7 @@ footer span {
   .top{margin-top: 10px; background-color: #fff;}
   .btn_top {float: left; border-radius: 5%;}
   .nav-link:hover {border-radius: 0;}
-  .date {padding: 5px;}
+  .date {padding: 5px; text-align: center;}
   .navbar a {font-size: 15px;}
   .carousel-cell {height: 300px;}
   .one {background-image: url('../img/28final2020_temat_small.png');}
