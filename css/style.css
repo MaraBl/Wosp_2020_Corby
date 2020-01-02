@@ -241,6 +241,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 .table {
   margin-top: 40px;
 }
+
 .table td {
   padding: 1.1rem;
 }
@@ -514,7 +515,7 @@ footer span {
   .two {background-image: url('../img/slide2_small.jpg');}
   .three {background-image: url('../img/slide3_small.jpg');}
   .four {background-image: url('../img/slide5_small.jpg');}
-  .slogan h2{text-align: left;}
+  .slogan h2 {text-align: left;}
   .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
   .add_auction .red_button {margin:0; width: 230px;}
