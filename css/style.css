@@ -110,6 +110,22 @@ p {
   margin-top: 20px;
 }
 
+.raisedmoney {
+  margin: 30px 0 0 0;
+}
+
+.money {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px; 
+  padding: 20px 10px;
+  border-radius: 5%;
+  background-color: lightgrey;
+}
+
+.pound {
+  color: red;
+}
 
 /*NAVBAR AND NAVIGATION*/
 
@@ -330,15 +346,16 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 
 .team img {
   width: 100%;
-  min-width: 100px;
+  min-width: 90px;
   height: auto;
   border-radius: 4%;
   margin-bottom: 20px;
 }
 
-.team .row {
-  padding: 5px;
+.team_member {
+ margin: 20px 0;
 }
+
 .team h5 {
   font-weight: bold;
 }
