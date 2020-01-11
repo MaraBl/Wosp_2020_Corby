@@ -345,8 +345,8 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 /*team */
 
 .team img {
-  width: 100%;
-  min-width: 90px;
+  width: 80%;
+  min-width: 70px;
   height: auto;
   border-radius: 4%;
   margin-bottom: 20px;
