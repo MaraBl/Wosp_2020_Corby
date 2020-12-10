@@ -13,6 +13,15 @@ body {
   width: 100%;
 }
 
+.tlo {
+    background-color: #002f5b; min-height: 400px; width: 100%;
+}
+
+.zostan-sponsorem {
+    text-align: center;
+}
+
+
 .container {
   max-width: 1200px;
   height: auto;
@@ -59,29 +68,22 @@ p {
     cursor: pointer;
 }
 
-.btn_top {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-  float: right;
-}
+
 
 .red_button {
-  background-color: #F3221d;
-  border: none;
-  margin-right: 70px;
+  background-color: #002f5b;
+  border: 1px solid #002f5b;
   margin-bottom: 1%;
   padding: 5px;
-  width: 200px;
-  height: 35px;
+  width: 250px;
+  height: 40px;
   color: #fff;
-  box-shadow: 2px 2px 3px #000000;
+    font-size: 18px;
 }
 .red_button:hover {
-   color: #F3221d;
+   color: #002f5b;
    background-color: #fff;
-   border-color: #F3221d;
+   border: solid 1px #002f5b;
 
 }
 
@@ -132,6 +134,7 @@ p {
 .navbar {
  width: 100%;
  color: #F3221d;
+ background-color: white;
  padding: 0 0 20px 0;
 }
 
@@ -143,8 +146,7 @@ p {
 .nav-link:hover {
   color: #fff;
   background-color: #F3221d;
-  border-radius: 10%;
-  box-shadow: 2px 2px 3px #000000;
+  border-radius: 5%;
 }
 
 .navbar-toggler {
@@ -193,7 +195,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   background-position: center;
 }
 
-.one {background-image: url('../img/28final2020_temat.png');}
+.one {background-image: url('../img/grafikawosp.png');}
 .two {background-image: url('../img/slide2.jpg');}
 .three {background-image: url('../img/slide3.jpg');}
 .four {background-image: url('../img/slide5.jpg');}
@@ -218,54 +220,15 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 }
 
 
-/* SLOGAN SECTION */
-
-.slogan_section {
-  padding: 40px;
-  background-color: #333333;
-  margin: 40px 0; 
-}
-
-.slogan {
-  text-align: right;
-  padding-right: 45px;
-}
-
-.slogan h2 {
-  font-size: 45px;
-  color: #adadad;
-}
-
-.slogan p {
-  font-size: 25px;
-  color: #fff;
-}
-
-.slogan_section button {
-  margin-top: 60px;
-  width: 130px;
-}
-
-.slogan_section .btn {
-  border-radius: 5%;
-} 
-
-.timetable {
-  padding: 0;
-}
-
-.table {
-  margin-top: 40px;
-}
-
-.table td {
-  padding: 1rem;
-}
-
 
 
 /* auctions */
-
+.auction-block {
+    text-align: center;
+} 
+.auctions a {
+    font-size: 20px;
+}
 .auctions {
   padding: 10px;
   margin: 0 0 10px 0;
@@ -276,27 +239,6 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   margin: 0;
 }
 
-.auctions-carousel {
-  background-color: black;
-}
-.carousel-cell-auctions {
-  width: 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  border-radius: 5px;
-}
-
-.auction-1 {background-image: url('../img/auctions/Voucher - Anita Gajdacz.jpg');}
-.auction-2 {background-image: url('../img/auctions/Kocyk - Maciej Nycz.jpg');}
-.auction-3 {background-image: url('../img/auctions/Kriolipoliza - Mirella Kettering - Anita Gajdacz.png');}
-.auction-4 {background-image: url('../img/auctions/koszulka damska - Anita Gajdacz.jpg');}
-.auction-5 {background-image: url('../img/auctions/Gosia Crystal Nails Corby logo - Anita Gajdacz.jpg');}
- 
-.all_auctions {
-  margin: 50px 40px;
-}
 
 .all_auctions .col-sm-12 {
   text-align: center;
@@ -342,6 +284,35 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   font-weight: 900;
 }
 
+/*Order mobile volunteer*/
+.tloWolontariusz {
+  background-image: url('../img/blue.jpg');
+    text-align: center;
+    width: 100%;
+  min-height: 200px;
+    padding: 0;
+    
+}
+.tloWolontariusz h3 {
+    color: #fff;
+}
+
+.blue_button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin-bottom: 2%;
+  padding: 5px;
+  width: 270px;
+  height: 40px;
+  color:  #002f5b;
+    font-size: 18px;
+}
+.blue_button:hover {
+   color:#fff;
+   background-color:  #002f5b;
+   border: solid 1px #fff;
+
+}
 /*team */
 
 .team img {
@@ -360,36 +331,6 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   font-weight: bold;
 }
 
-/*Sponsorzy*/
-
-.sponsors {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.sponsors img {
-    width: 60%;
-    height: auto;
-    margin-bottom: 80px;
-}
-
-.sponsors h3 {
-  padding: 2%;
-  text-align: center;
-}
-
-.sponsors p {
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.button_sponsors {
-  text-align: center;
-}
-.sponsors .btn {
-  border-radius: 5%;
-  margin: 0;
-}
 
 
 
@@ -518,22 +459,21 @@ footer span {
 /* MEDIA QUERIES*/
 
 @media (max-width: 767.98px) { 
+  .tlo {background-color: #fff; min-height: 30px; width: 100%; margin-top:30px;}
   .container .row {margin: 0, padding: 2%;}
   h1, h2, h3, h4 {text-align: center;}
   .red_button {margin: 5px; padding: 10px; width: 230px; height: 45px}
   .navbar {position: fixed; top:0; right:0;background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
-  .btn_top {float: left; border-radius: 5%;}
   .nav-link:hover {border-radius: 0;}
   .date {padding: 5px; text-align: center;}
+  .money {font-size: 20px; padding: 20px 5px;}
   .navbar a {font-size: 15px;}
   .carousel-cell {height: 300px;}
   .one {background-image: url('../img/28final2020_temat_small.png');}
   .two {background-image: url('../img/slide2_small.jpg');}
   .three {background-image: url('../img/slide3_small.jpg');}
   .four {background-image: url('../img/slide5_small.jpg');}
-  .slogan h2 {text-align: left;}
-  .slogan p {text-align: left;}
   .all_auctions {margin: 40px 0;}
   .add_auction .red_button {margin:0; width: 230px;}
   .single-auction {height: auto; margin: 10px;}
@@ -545,9 +485,9 @@ footer span {
 }
 
 @media (max-width: 991.98px) {
+  .tlo {background-color: #fff; min-height: 0px; width: 100%;}
   .navbar {position: fixed; top:0; right:0; background-color: #fff;}
   .top{margin-top: 10px; background-color: #fff;}
-  .btn_top {border-radius: 5%; margin: 6px 100px 6px 6px;}
   .nav-link:hover {border-radius: 0;}
   .date {padding: 5px;}
   .navbar a {font-size: 15px;}
@@ -559,6 +499,7 @@ footer span {
 
 @media (max-width: 1199.98px) {
   .navbar-brand {margin-right: 5%;}
+   .tlo {background-color: #fff; min-height: 0px; width: 100%;}
 }
 
 
