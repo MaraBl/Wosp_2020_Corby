@@ -195,7 +195,7 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   background-position: center;
 }
 
-.one {background-image: url('../img/grafikawosp.png');}
+.one {background-image: url('../img/serce.png');}
 .two {background-image: url('../img/slide2.jpg');}
 .three {background-image: url('../img/slide3.jpg');}
 .four {background-image: url('../img/slide5.jpg');}
@@ -331,9 +331,24 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
 
 .blue_button2:hover {
    color:#fff;
-   background-color:  #002f5b;
+   background-color: #002f5b;
    border: solid 1px #fff;
 
+}
+
+
+/* maps */
+
+.navtown {
+    background-color: #002f5b;
+}
+
+.navtown a {
+    color: #fff;
+}
+
+.town {
+    color: #F3221d;
 }
 /*team */
 
@@ -353,47 +368,6 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   font-weight: bold;
 }
 
-
-
-
-/*GALLERY */
-
-.gallery .row {
-  padding: 3%;
-  text-align: center;
-}
-
-.gallery h2 {
-  width: 100%;
-  text-align: center;
-}
-
-.gallery .row {
-  text-align: center;
-}
-
-.gallery img {
-  width: 24%;
-  height: auto;
-  padding: 0.5%;
-}
-
-.gallery button {
-  background-color: #F3221d; 
-  width: 200px;
-  margin-top: 5%;
-}
-
-.gallery button:hover {
-  background-color: #fff;
-  border-color: #F3221d;
-}
-
-#more {display: none;}
-.more {
-  width: 100%;
-  text-align: center;
-}
 
 
 /* FOOTER */ 
@@ -492,7 +466,7 @@ footer span {
   .money {font-size: 20px; padding: 20px 5px;}
   .navbar a {font-size: 15px;}
   .carousel-cell {height: 300px;}
-  .one {background-image: url('../img/28final2020_temat_small.png');}
+  .one {background-image: url('../img/serce_small.png');}
   .two {background-image: url('../img/slide2_small.jpg');}
   .three {background-image: url('../img/slide3_small.jpg');}
   .four {background-image: url('../img/slide5_small.jpg');}
