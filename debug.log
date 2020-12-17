@@ -14,3 +14,5 @@
 [1210/091752.178:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Marta\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\88cd4559-3231-4668-b8d6-41f8006e554f: System nie może odnaleźć określonej ścieżki. (0x3)
 [1210/091752.179:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Marta\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\dc11e934-50b6-4a8f-8b33-0698d6ed9142: System nie może odnaleźć określonej ścieżki. (0x3)
 [1210/110147.279:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie może odnaleźć określonej ścieżki. (0x3)
+[1217/101639.602:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Marta\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\60e5ff63-612f-482b-aa6d-b4884e98642e: System nie może odnaleźć określonej ścieżki. (0x3)
+[1217/101639.606:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie może odnaleźć określonej ścieżki. (0x3)

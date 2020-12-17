@@ -195,10 +195,16 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729
   background-position: center;
 }
 
-.one {background-image: url('../img/serce.png');}
+.one {background-image: url('../img/slide1.jpg');}
 .two {background-image: url('../img/slide2.jpg');}
 .three {background-image: url('../img/slide3.jpg');}
-.four {background-image: url('../img/slide5.jpg');}
+.four {background-image: url('../img/slide4.jpg');}
+.five {background-image: url('../img/slide5.jpg');}
+.six {background-image: url('../img/slide6.jpg');}
+.seven {background-image: url('../img/slide7.jpg');}
+.eight {background-image: url('../img/slide8.jpg');}
+.nine {background-image: url('../img/slide9.jpg');}
+.ten {background-image: url('../img/slide10.jpg');}  
 
 
 
@@ -466,10 +472,16 @@ footer span {
   .money {font-size: 20px; padding: 20px 5px;}
   .navbar a {font-size: 15px;}
   .carousel-cell {height: 300px;}
-  .one {background-image: url('../img/serce_small.png');}
+  .one {background-image: url('../img/slide1_small.jpg');}
   .two {background-image: url('../img/slide2_small.jpg');}
   .three {background-image: url('../img/slide3_small.jpg');}
-  .four {background-image: url('../img/slide5_small.jpg');}
+  .four {background-image: url('../img/slide4_small.jpg');}
+  .five {background-image: url('../img/slide5.jpg');}
+  .six {background-image: url('../img/slide6.jpg');}
+  .seven {background-image: url('../img/slide7_small.jpg');}  
+  .eight {background-image: url('../img/slide8.jpg');}
+  .nine {background-image: url('../img/slide9_small.jpg');}
+  .ten {background-image: url('../img/slide10.jpg');}  
   .all_auctions {margin: 40px 0;}
   .add_auction .red_button {margin:0; width: 230px;}
   .single-auction {height: auto; margin: 10px;}
